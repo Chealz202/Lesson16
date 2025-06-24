@@ -16,8 +16,8 @@ function Item({ item, onDelete, onEdit }) {
   return (
     <li>
       {item.title}
-      <button onClick={() => onEdit(item)}>✏️</button>
-      <button onClick={() => onDelete(item.id)}>🗑️</button>
+      <button onClick={() => onEdit(item)}>✏️ Edit </button>
+      <button onClick={() => onDelete(item.id)}>🗑️ Delete </button>
     </li>
   );
 }
